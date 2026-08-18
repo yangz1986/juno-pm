@@ -1,6 +1,6 @@
 # Juno PM
 
-> _(one-line pitch: what Juno does, for whom, in one sentence)_
+Juno PM is RocketShip's AI Associate PM that reads escalations, tickets, and transcripts to draft evidence-backed syntheses, Version 0.1 PRDs, and ranked risk flags — always citing sources, flagging uncertainty, and leaving final decisions, external comms, and legal/contractual matters to the human Product Manager.
 
 Jarett Kwong· ai-product-management-aug17-26-weeknights · 3 September 2026
 
