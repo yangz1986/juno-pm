@@ -14,4 +14,4 @@ How do we implement continuous, automated risk ranking for Juno, now that on-dem
 
 ## Recommendation
 
-It scores highest overall (3.8 vs. 2.8 vs. 2), and more importantly it's the only option that inherits Juno's existing guardrails (source citation, confidence-threshold handoff, no autonomous sends) instead of requiring RocketShip to re-negotiate them with a vendor or retrain them into a fine-tuned model. Since Automated Prioritization is a cadence change to a pillar that already exists and is scoped at Suggest, extending the current build is lower-risk than introducing a new system with a different trust surface.
+BUILD. It scores highest overall (3.8 vs. 2.8 vs. 2), and more importantly it's the only option that inherits Juno's existing guardrails (source citation, confidence-threshold handoff, no autonomous sends) instead of requiring RocketShip to re-negotiate them with a vendor or retrain them into a fine-tuned model. Since Automated Prioritization is a cadence change to a pillar that already exists and is scoped at Suggest, extending the current build is lower-risk than introducing a new system with a different trust surface.
