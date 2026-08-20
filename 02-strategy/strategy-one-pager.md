@@ -2,7 +2,7 @@
 
 ## 1. Problem & Workflow
 
-Juno prevents PMs from missing or silently deprioritizing a real P0 risk because it's buried in a backlog of thousands of open ROCKET tickets while the PM is heads-down elsewhere. Today that only gets caught when someone remembers to ask Juno to rank it — Automated Prioritization removes the "remembering" step
+Juno prevents PMs from missing or silently deprioritizing a real P0 risk because it's buried in a backlog of thousands of open ROCKET Jira tickets while the PM is heads-down elsewhere. Today that only gets caught when someone remembers to ask Juno to rank it — Automated Prioritization removes the "remembering" step
 
 ## 2. Target Metrics
 
