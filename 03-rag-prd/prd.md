@@ -10,7 +10,7 @@ RocketShip PMs need evidence-based prioritization. Juno turns noisy Slack, ticke
 
 **Retrieval strategy:** Modular RAG
 
-How: Juno needs to ground every ranked claim in a citable source (system prompt), which requires an explicit retrieve-then-generate pipeline, not model memory. Where: the corpus spans four separate systems (Slack, Notion, Jira, transcripts) that don't share a schema, so indexing into one queryable store is required regardless of size. Scale: Class 3 states the RocketShip corpus is "too big to fit in context window" — which rules out Long Context outright. Modular RAG is the only pattern of the three that fits all three constraints at once.
+How: Juno needs to ground every ranked claim in a citable source (system prompt), which requires an explicit retrieve-then-generate pipeline, not model memory. Where: the corpus spans four separate systems (Slack, Notion, Jira, transcripts) that don't share a schema, so indexing into one queryable store is required regardless of size. Modular RAG is the only pattern of the three that fits all three constraints at once.
 
 ## Retrieval requirements (RAG)
 
