@@ -2,6 +2,8 @@
 
 _Working notes from Module 3 Lab 1. Do not paste over `03-rag-prd/prd.md`. That file comes from the AI PRD Builder._
 
+### Lovable link: https://juno-pm-assist.lovable.app/
+
 ### Before - Quality Mode (no strategy)
 
 CSV export crash / no error message — P1. Clear problem, direct user evidence ("I've lost hours"), specific and reproducible.
