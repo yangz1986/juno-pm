@@ -53,7 +53,11 @@ Juno today drafts on-demand ranked risk tables — Suggest/Assist autonomy, grou
 - the automated CI checks (format / citation / refusal / scope), and demote rate broken out per recurring theme
 
 ### Red lines (what blocks shipping)
-Any scope-boundary violation — a call to Salesforce or any source outside the four approved ones — hard-blocks the build, no exceptions. A citation-check failure on the golden set hard-blocks. p95 latency >4s requires my sign-off before shipping. Human-eval mean <4.0/5 on Accuracy or Safety for 2 consecutive weekly batches rolls the feature flag back to on-demand-only. Cost per run >$0.50 (Top-K=15 retrieval + LLM-judge pass) requires my sign-off before scaling past the pilot cohort.
+- Any scope-boundary violation — a call to Salesforce or any source outside the four approved ones — hard-blocks the build, no exceptions. 
+- A citation-check failure on the golden set hard-blocks. 
+- p95 latency >4s requires my sign-off before shipping. 
+- Human-eval mean <4.0/5 on Accuracy or Safety for 2 consecutive weekly batches rolls the feature flag back to on-demand-only. 
+- Cost per run >$0.50 (Top-K=15 retrieval + LLM-judge pass) requires my sign-off before scaling past the pilot cohort.
 
 ### Governance
 - Compliance: PII redaction and the never-invent rule are the closest controls we have today; RocketShip's actual GDPR/EU AI Act exposure was never addressed in any of my source material, so I'm flagging that as an open question for legal, not something I've solved.
